@@ -8,7 +8,7 @@ var questionTimer = 0;
 var timePerQuestion = 30; //in seconds
 var timeLeft = timePerQuestion;
 var nextQuestionTimer = 0;
-var clockRunning = false;
+//var clockRunning = false;
 //Questions exist as arrays with data in this order:
 //[0] - question
 //[1] - [4] answer choices
@@ -21,10 +21,6 @@ var	question5 = ["What is the capital of Maine?", "Auburn", "Bangor", "Alfred", 
 var	question6 = ["What is the capital of Kentucky?", "Louisville", "Frankfort", "Lexington", "Richmond", 2];
 var	question7 = ["What is the capital of Pennsylvania?", "Allentown", "Philadelphia", "Harrisburg", "Reading", 3];
 var question = [];
-
-function newGame() {
-
-}
 
 function start() {
 	clearInterval(gameTimer);
